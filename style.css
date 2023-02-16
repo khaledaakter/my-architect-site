@@ -345,7 +345,6 @@ nav ul li a {
 
 .facts-logo img {
     width: 45px;
-    height: 45px;
     margin-bottom: 10px;
 }
 
@@ -365,8 +364,43 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 1200px) {
+    .some-facts {
+        margin-top: 40px;
+    }
+    .some-facts,
+    .some-facts .fact-description {
+        margin-bottom: 40px;
+    }
+    .some-facts .section-heading {
+        margin-bottom: 15px;
+    }
+
+    .facts-logo {
+        width: 155px;
+        height: 155px;
+    }
+
+    .facts-logo img {
+        width: 33px;
+    }
+
+    .facts-logo h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .facts-logo p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
 }
+
+
+
+
 @media only screen and (max-width: 992px) {
+
 }
 @media only screen and (max-width: 768px) {
 }
