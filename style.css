@@ -719,6 +719,7 @@ footer {
 }
 
 .card {
+    background: #fffeee;
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 60px;
