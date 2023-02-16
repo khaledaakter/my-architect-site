@@ -364,19 +364,29 @@ nav ul li a {
     color: #727272;
 }
 
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+}
+
 /* Our Sponspors style */
 
 .our-sponspors {
     margin-bottom: 130px;
 }
 
-.fact-description {
+.sponspors-description {
     max-width: 542px;
     margin: 0 auto 50px;
     text-align: center;
 }
 
-.fact-description h2 {
+.sponspors-description h2 {
     margin-bottom: 24px;
 }
 
@@ -389,6 +399,7 @@ nav ul li a {
     filter: grayscale(100%);
     max-width: 100%;
 }
+
 
 
 
