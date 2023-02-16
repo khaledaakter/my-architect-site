@@ -457,6 +457,9 @@ nav ul li a {
     .your-features-heading {
         margin-bottom: 20px;
     }
+    .your-features-heading .section-heading {
+        text-align: left;
+    }
 
     .your-features-heading .section-heading {
         margin-bottom: 20px;
