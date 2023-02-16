@@ -396,16 +396,47 @@ nav ul li a {
 
 }
 
-
-
-
-@media only screen and (max-width: 992px) {
-
-}
 @media only screen and (max-width: 768px) {
+    .fact-description {
+        margin-bottom: 20px;
+    }
+    .some-facts-logos {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .facts-logo {
+        width: 220px;
+        height: 220px;
+    }
+
+    .facts-logo img {
+        width: 45px;
+    }
+
+    .facts-logo h2 {
+        font-size: 24px;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
+    .facts-logo {
+        width: 180px;
+        height: 180px;
+    }
+
+    .facts-logo img {
+        width: 33px;
+    }
+
+    .facts-logo h2 {
+        font-size: 22px;
+    }
+
+
 }
 
 /* Our Sponspors style */
